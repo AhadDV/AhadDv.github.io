@@ -28,11 +28,12 @@ a,p{
   }
 .info div{
     
-  width: auto;
+  width: 50%;
 }
 .info{
-    height: 90vh;
-    align-items: flex-end;
+  width: 100%;
+    position: fixed;
+    bottom: 3%;
     justify-content: space-between;
     padding: 20px 13px;
 }
