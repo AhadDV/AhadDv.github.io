@@ -11,7 +11,16 @@
   background-attachment: fixed;
   background-position:center;
   position: relative;
+
 }
+.loading{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
 a,p{
     margin: 0px;
     text-decoration: none;
@@ -20,15 +29,20 @@ a,p{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+.loading p{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 @media only screen and (max-width: 800px) {
-    a,p{
+    a,p,.loading p{
         font-size: 10px;
     }
     #main{
-      background-size: contain !important;
+      background-size: contain ;
+      height: 100vh;
     }
     body{
-      background-color: black !important;
+      background-color: black ;
     }
 
   }
